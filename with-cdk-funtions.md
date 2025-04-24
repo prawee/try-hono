@@ -12,6 +12,7 @@ touch index.ts
 ```
 
 ```
+bun run build
 npx cdk bootstrap aws://{{account}}/{{region}}
 npx cdk deploy --require-approval never --all --app="npx tsx stack/index.ts" 
 ```

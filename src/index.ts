@@ -1,9 +1,8 @@
-import { Hono } from 'hono'
-
-const app = new Hono()
-
-app.get('/', (c) => {
-  return c.text('Hello Hono!')
-})
-
-export { app}
+export const handler = () => {
+    return {
+        statusCode: 200,
+        body: JSON.stringify({
+            message: 'Hello Hono!',
+        }),
+    };
+};
