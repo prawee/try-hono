@@ -1,17 +1,4 @@
-import { Hono } from 'hono'
 import { handle } from 'hono/aws-lambda'
-import { logger } from 'hono/logger'
-
-const app = new Hono()
-
-app.use("*", logger())
-
-app.get('/', (c) => {
-  return c.text('Hello Hono!')
-})
-
-app.get('/json', c => c.json({
-  message: 'successfully'
-}))
+import { app } from './api'
 
 export const handler = handle(app)
