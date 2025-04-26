@@ -1,0 +1,16 @@
+# API
+
+### Home
+GET http://localhost:3000
+
+### Create
+POST http://localhost:3000
+
+### Replace
+PUT http://localhost:3000
+
+### Update
+PATCH  http://localhost:3000
+
+### Delete
+DELETE http://localhost:3000

@@ -7,19 +7,19 @@ home.get('/', (c) => {
 })
 
 home.post('/', c => c.json({
-  message: 'successfully (POST)'
+  message: 'create data successfully (POST)'
 }))
 
 home.put('/', c => c.json({
-  message: 'successfully (PUT)'
+  message: 'replace data successfully (PUT)'
 }))
 
 home.patch('/', c => c.json({
-  message: 'successfully (PATCH)'
+  message: 'update data successfully (PATCH)'
 }))
 
 home.delete('/', c => c.json({
-  message: 'successfully (DELETE)'
+  message: 'delete data successfully (DELETE)'
 }))
 
 export { home }
