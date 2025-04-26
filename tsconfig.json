@@ -19,17 +19,9 @@
     "inlineSources": true,
     "experimentalDecorators": true,
     "strictPropertyInitialization": false,
-    "verbatimModuleSyntax": false,
-    "skipLibCheck": true,
-    "types": [
-      "node"
-    ],
     "typeRoots": [
       "./node_modules/@types"
-    ],
-    "jsx": "react-jsx",
-    "jsxImportSource": "hono/jsx",
-    "outDir": "./dist"
+    ]
   },
   "exclude": ["node_modules", "cdk.out"]
 }
