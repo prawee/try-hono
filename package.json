@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "build": "tsc",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "build:image": "docker build -t prawee/hono:0.0.1 ."
   },
   "dependencies": {
     "@hono/node-server": "^1.14.1",
