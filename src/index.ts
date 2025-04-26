@@ -10,4 +10,8 @@ app.get('/', (c) => {
   return c.text('Hello Hono!')
 })
 
+app.get('/json', c => c.json({
+  message: 'successfully'
+}))
+
 export const handler = handle(app)
