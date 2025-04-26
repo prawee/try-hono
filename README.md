@@ -22,6 +22,10 @@ bun run build
 bun run start
 ```
 
+```bash
+bun run build:image
+```
+
 ```
 open http://localhost:3000
 ```
