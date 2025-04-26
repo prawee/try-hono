@@ -27,5 +27,10 @@ bun run build:image
 ```
 
 ```
+bun add aws-cdk-lib constructs
+bun add -D @types/node
+```
+
+```
 open http://localhost:3000
 ```
