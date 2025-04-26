@@ -26,3 +26,10 @@ lerna-debug.log*
 
 # misc
 .DS_Store
+
+# CDK
+*.js
+!jest.config.js
+*.d.ts
+.cdk.staging
+cdk.out

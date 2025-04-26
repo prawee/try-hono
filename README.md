@@ -28,7 +28,7 @@ bun run build:image
 
 ```
 bun add aws-cdk-lib constructs
-bun add -D @types/node
+bun add -D @types/node aws-cdk ts-node
 ```
 
 ```
