@@ -19,5 +19,14 @@ export class HonoStack extends cdk.Stack {
             runtime: lambda.Runtime.NODEJS_20_X
         })
 
+        const apiGw = new apigw.LambdaRestApi(this, 'try-hono-api', {
+            handler: fn
+        })
+
+        new cdk.CfnOutput(this, 'ApiEndpoint', {
+            value: apiGw.url,
+            description: "API Gateway endpoint URL"
+        })
+
     }
 }
