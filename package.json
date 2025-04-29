@@ -9,7 +9,7 @@
     "watch": "tsc -w",
     "cdk": "cdk",
     "dev": "END=development bun --hot run src/app/index.ts",
-    "build:image": "docker build -t prawee/hono:0.0.3 ."
+    "build:image": "docker build -t prawee/hono:0.0.4 ."
   },
   "dependencies": {
     "aws-cdk-lib": "^2.192.0",
