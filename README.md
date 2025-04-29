@@ -12,6 +12,10 @@ create-hono version 0.18.0
 
 ```
 cd hono-func
+cp env.dist .env
+```
+
+```
 bun install
 bun install -D @types/node
 bun run dev
