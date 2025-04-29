@@ -8,7 +8,7 @@
     "build": "tsc",
     "watch": "tsc -w",
     "cdk": "cdk",
-    "dev": "END=development bun --hot run src/app/index.ts",
+    "dev": "END=development bun --hot run src/app/server.ts",
     "build:image": "docker build -t prawee/hono:0.0.1 ."
   },
   "dependencies": {
