@@ -36,6 +36,11 @@ bun add -D @types/node aws-cdk ts-node
 ```
 
 ```
+chmod +x buildx.sh
+./buildx.sh
+```
+
+```
 open http://localhost:3000
 ```
 
