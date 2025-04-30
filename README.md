@@ -12,6 +12,10 @@ create-hono version 0.18.0
 
 ```
 cd hono-func
+cp env.dist .env
+```
+
+```
 bun install
 bun install -D @types/node
 bun run dev
@@ -29,6 +33,11 @@ bun run build:image
 ```
 bun add aws-cdk-lib constructs
 bun add -D @types/node aws-cdk ts-node
+```
+
+```
+chmod +x buildx.sh
+./buildx.sh
 ```
 
 ```
