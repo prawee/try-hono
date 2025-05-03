@@ -12,6 +12,7 @@
     "build:image": "docker build -t prawee/hono:0.0.6 ."
   },
   "dependencies": {
+    "@prisma/client": "^6.7.0",
     "aws-cdk-lib": "^2.192.0",
     "constructs": "^10.4.2",
     "hono": "^4.7.7",
