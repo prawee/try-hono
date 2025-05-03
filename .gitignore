@@ -33,3 +33,7 @@ lerna-debug.log*
 *.d.ts
 .cdk.staging
 cdk.out
+
+# Testing
+*.http
+*.rest

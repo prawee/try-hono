@@ -1,0 +1,13 @@
+# Simple (Home)
+
+### Retrieve
+GET http://localhost:5000
+
+### Update(PUT)
+PUT http://localhost:5000
+
+### Update(PATCH)
+PATCH http://localhost:5000
+
+### Delete
+DELETE http://localhost:5000
