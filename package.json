@@ -9,7 +9,8 @@
     "watch": "tsc -w",
     "cdk": "cdk",
     "dev": "END=development bun --hot run src/app/index.ts",
-    "build:image": "docker build -t prawee/hono:0.0.6 ."
+    "build:image": "docker build -t prawee/hono:0.0.6 .",
+    "seed": "ts-node prisma/seed/index.ts"
   },
   "dependencies": {
     "@prisma/client": "^6.7.0",
