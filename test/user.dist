@@ -1,0 +1,4 @@
+# Simple (User)
+
+### Retrieve
+GET http://localhost:5000/user
