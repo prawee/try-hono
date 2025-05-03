@@ -5,6 +5,7 @@
     "cdk-hono": "bin/cdk-hono.js"
   },
   "scripts": {
+    "preinstall": "prisma generate",
     "build": "tsc",
     "watch": "tsc -w",
     "cdk": "cdk",
