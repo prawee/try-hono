@@ -15,6 +15,8 @@ export class HonoStack extends cdk.Stack {
         const fn = new NodejsFunction(this, 'lambda', {
             // depsLockFilePath: 'bun.lock',
             // depsLockFilePath: 'yarn.lock',
+            functionName: 'try-hono-func',
+            memorySize: 256,
             depsLockFilePath: 'package-lock.json',
             entry: 'src/index.ts',
             handler: 'handler',
@@ -25,7 +27,7 @@ export class HonoStack extends cdk.Stack {
             },
             bundling: {
                 externalModules: ['aws-sdk'],
-                nodeModules: ['prisma', '@prisma/client', 'hono'],
+                nodeModules: ['prisma', '@prisma/client', 'hono', 'xlsx'],
                 commandHooks: {
                     beforeBundling: () => [],
                     beforeInstall: () => [],

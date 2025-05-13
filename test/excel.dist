@@ -1,0 +1,8 @@
+# Simple (User)
+@baseUrl={{$dotenv BASE_URL}}
+
+### Retrieve
+GET {{baseUrl}}/excel
+
+### Download excel
+GET {{baseUrl}}/excel/dl

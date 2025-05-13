@@ -17,9 +17,10 @@
     "@prisma/client": "^6.7.0",
     "aws-cdk-lib": "^2.192.0",
     "constructs": "^10.4.2",
-    "exceljs": "^4.4.0",
+    "exceljs": "4.4.0",
     "hono": "^4.7.7",
-    "prisma": "^6.7.0"
+    "prisma": "^6.7.0",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@types/node": "^22.15.2",
