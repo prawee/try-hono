@@ -1,4 +1,5 @@
 # Simple (User)
+@baseUrl={{$dotenv BASE_URL}}
 
 ### Retrieve
-GET http://localhost:5000/user
+GET {{baseUrl}}/user
