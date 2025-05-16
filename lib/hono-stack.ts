@@ -41,7 +41,8 @@ export class HonoStack extends cdk.Stack {
         })
 
         const apiGw = new apigw.LambdaRestApi(this, 'try-hono-api', {
-            handler: fn
+            handler: fn,
+            proxy: true
         })
 
         new cdk.CfnOutput(this, 'ApiEndpoint', {
